@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* Border */
         .border-custom {
             border: 1px solid black;
             box-shadow: 10px 20px black;
@@ -16,12 +17,39 @@
             background-color: yellowgreen;
             color: black;
         }
+
+        /* Contoh Relative Position */
+        .position-custom {
+            border: 1px solid black;
+            padding: 30px;
+            margin-top: 50px;
+            width: 450px;
+        }
+
+        .position-custom p {
+            width: 450px;
+        }
+
+        .relative {
+            position: relative;
+            left: 50px;
+        }
     </style>
 </head>
 
 <body>
 
     <div class="border-custom">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque vitae maiores illo rem rerum labore vero
+            quaerat quis asperiores.</p>
+    </div>
+
+    <div class="position-custom">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque vitae maiores illo rem rerum labore vero
+            quaerat quis asperiores.</p>
+        <p class="relative">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque vitae maiores illo rem
+            rerum labore vero
+            quaerat quis asperiores.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque vitae maiores illo rem rerum labore vero
             quaerat quis asperiores.</p>
     </div>
